@@ -1,0 +1,25 @@
+def get_vecinos_vivos(r,c):
+    it=0
+    it2=0
+    vivos = []
+    r_min=r-1
+    r_max=r+1
+    c_min=c-1
+    c_max=c+1
+
+    if(r_min==0):
+      r_min=+1
+    if(c_min==0):
+      c_min=+1
+    if(r_max==ren):
+      r_max=-1
+    if(c_max==col):
+      c_max=-1
+    for ren in range(r_min,r_max,1):
+      for col in range (c_min,c_max,1):
+        if(JuegoVida(it,it2,null,1)=='V'):
+            print("Vecino vivo")
+        
+        it2=+1
+      it=+1
+      
